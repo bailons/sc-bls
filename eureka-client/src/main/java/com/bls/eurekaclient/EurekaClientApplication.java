@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
+//表明自己是一个服务提供者(服务提供者)
 @EnableEurekaClient
 @RestController
 public class EurekaClientApplication {
